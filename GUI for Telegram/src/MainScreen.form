@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainScreen">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="2">
+    <constraints>
+      <xy x="40" y="20" width="800" height="500"/>
+    </constraints>
+    <properties>
+      <maximumSize width="800" height="500"/>
+      <minimumSize width="800" height="500"/>
+      <opaque value="false"/>
+      <preferredSize width="800" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="eb3b5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="2">
+        <constraints/>
+        <properties>
+          <background color="-1579033"/>
+          <inheritsPopupMenu value="false"/>
+          <maximumSize width="800" height="20"/>
+          <minimumSize width="800" height="20"/>
+          <preferredSize width="800" height="20"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="bf247" class="javax.swing.JButton" binding="hideButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1579033"/>
+              <maximumSize width="20" height="20"/>
+              <minimumSize width="20" height="20"/>
+              <opaque value="false"/>
+              <preferredSize width="20" height="20"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e2f2b" class="javax.swing.JButton" binding="closeButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1579033"/>
+              <maximumSize width="20" height="20"/>
+              <minimumSize width="20" height="20"/>
+              <opaque value="false"/>
+              <preferredSize width="20" height="20"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f2c80" binding="top" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+        <constraints/>
+        <properties>
+          <background color="-16731161"/>
+          <maximumSize width="800" height="30"/>
+          <minimumSize width="800" height="30"/>
+          <preferredSize width="800" height="30"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="95166" class="javax.swing.JLabel" binding="label" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-16731162"/>
+              <iconTextGap value="0"/>
+              <maximumSize width="770" height="30"/>
+              <minimumSize width="770" height="30"/>
+              <preferredSize width="770" height="30"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="cd35f" class="javax.swing.JButton" binding="settingsButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-16731162"/>
+              <maximumSize width="30" height="30"/>
+              <minimumSize width="30" height="30"/>
+              <opaque value="false"/>
+              <preferredSize width="30" height="30"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e979c" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="2">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <maximumSize width="800" height="30"/>
+          <minimumSize width="800" height="30"/>
+          <opaque value="true"/>
+          <preferredSize width="800" height="30"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="20535" class="javax.swing.JButton" binding="searchButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <maximumSize width="30" height="29"/>
+              <minimumSize width="30" height="29"/>
+              <preferredSize width="30" height="29"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d8c3" class="javax.swing.JTextField" binding="searchingRequest">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <maximumSize width="168" height="29"/>
+              <minimumSize width="168" height="29"/>
+              <preferredSize width="168" height="29"/>
+              <text value="Поиск"/>
+            </properties>
+          </component>
+          <component id="1643c" class="javax.swing.JSeparator">
+            <constraints/>
+            <properties>
+              <background color="-3881788"/>
+              <maximumSize width="1" height="30"/>
+              <minimumSize width="1" height="30"/>
+              <opaque value="true"/>
+              <preferredSize width="1" height="30"/>
+            </properties>
+          </component>
+          <component id="2e612" class="javax.swing.JLabel" binding="currentContact" custom-create="true">
+            <constraints/>
+            <properties>
+              <maximumSize width="200" height="29"/>
+              <minimumSize width="200" height="29"/>
+              <preferredSize width="200" height="29"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="63051" class="javax.swing.JSeparator">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <maximumSize width="370" height="0"/>
+              <minimumSize width="370" height="0"/>
+              <preferredSize width="370" height="0"/>
+            </properties>
+          </component>
+          <component id="1602f" class="javax.swing.JButton" binding="editButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <maximumSize width="30" height="29"/>
+              <minimumSize width="30" height="29"/>
+              <opaque value="false"/>
+              <preferredSize width="30" height="29"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="790d1" class="javax.swing.JSeparator">
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-12434878"/>
+              <maximumSize width="600" height="1"/>
+              <minimumSize width="600" height="1"/>
+              <opaque value="true"/>
+              <preferredSize width="600" height="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="79ec1" binding="left" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+        <constraints/>
+        <properties>
+          <background color="-1644826"/>
+          <maximumSize width="200" height="420"/>
+          <minimumSize width="200" height="420"/>
+          <preferredSize width="200" height="420"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c36db" class="javax.swing.JButton" binding="contact1" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1644826"/>
+              <foreground color="-12434878"/>
+              <maximumSize width="200" height="75"/>
+              <minimumSize width="200" height="75"/>
+              <opaque value="false"/>
+              <preferredSize width="200" height="75"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="97577" class="javax.swing.JButton" binding="contact2" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1644826"/>
+              <foreground color="-12434878"/>
+              <maximumSize width="200" height="75"/>
+              <minimumSize width="200" height="75"/>
+              <opaque value="false"/>
+              <preferredSize width="200" height="75"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c39df" class="javax.swing.JButton" binding="contact3" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1644826"/>
+              <foreground color="-12434878"/>
+              <maximumSize width="200" height="75"/>
+              <minimumSize width="200" height="75"/>
+              <opaque value="false"/>
+              <preferredSize width="200" height="75"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5d8c7" class="javax.swing.JButton" binding="contact4" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1644826"/>
+              <foreground color="-12434878"/>
+              <maximumSize width="200" height="75"/>
+              <minimumSize width="200" height="75"/>
+              <opaque value="false"/>
+              <preferredSize width="200" height="75"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="9dd99" class="javax.swing.JSeparator">
+            <constraints/>
+            <properties>
+              <maximumSize width="200" height="85"/>
+              <minimumSize width="200" height="85"/>
+              <preferredSize width="200" height="85"/>
+            </properties>
+          </component>
+          <component id="dee29" class="javax.swing.JSeparator">
+            <constraints/>
+            <properties>
+              <maximumSize width="7" height="0"/>
+              <minimumSize width="7" height="0"/>
+              <preferredSize width="7" height="0"/>
+            </properties>
+          </component>
+          <component id="41543" class="javax.swing.JButton" binding="plusButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1644826"/>
+              <horizontalAlignment value="0"/>
+              <maximumSize width="26" height="26"/>
+              <minimumSize width="26" height="26"/>
+              <opaque value="true"/>
+              <preferredSize width="26" height="26"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f6fc6" binding="center" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <maximumSize width="600" height="420"/>
+          <minimumSize width="600" height="420"/>
+          <preferredSize width="600" height="420"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="46bd" binding="scrollPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="600" height="370"/>
+                <preferred-size width="600" height="336"/>
+                <maximum-size width="600" height="370"/>
+              </grid>
+            </constraints>
+            <properties>
+              <horizontalScrollBarPolicy value="31"/>
+              <opaque value="false"/>
+            </properties>
+            <border type="empty"/>
+            <children>
+              <grid id="23326" binding="messages" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <maximumSize width="600" height="32767"/>
+                  <minimumSize width="600" height="370"/>
+                  <opaque value="true"/>
+                  <preferredSize width="600" height="370"/>
+                </properties>
+                <border type="empty"/>
+                <children>
+                  <component id="e5d40" class="javax.swing.JLabel" binding="message2" custom-create="true">
+                    <constraints/>
+                    <properties>
+                      <maximumSize width="600" height="100"/>
+                      <minimumSize width="600" height="100"/>
+                      <preferredSize width="600" height="100"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="381b5" class="javax.swing.JLabel" binding="message3" custom-create="true">
+                    <constraints/>
+                    <properties>
+                      <maximumSize width="600" height="100"/>
+                      <minimumSize width="600" height="100"/>
+                      <preferredSize width="600" height="100"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="b9db1" class="javax.swing.JLabel" binding="message1" custom-create="true">
+                    <constraints/>
+                    <properties>
+                      <maximumSize width="600" height="100"/>
+                      <minimumSize width="600" height="100"/>
+                      <preferredSize width="600" height="100"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </scrollpane>
+          <grid id="fc19c" layout-manager="FlowLayout" hgap="5" vgap="0" flow-align="1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="600" height="50"/>
+                <preferred-size width="600" height="50"/>
+                <maximum-size width="600" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="empty"/>
+            <children>
+              <component id="d228f" class="javax.swing.JTextField" binding="userMessage">
+                <constraints/>
+                <properties>
+                  <background color="-3881788"/>
+                  <foreground color="-10197916"/>
+                  <maximumSize width="350" height="45"/>
+                  <minimumSize width="350" height="45"/>
+                  <opaque value="true"/>
+                  <preferredSize width="350" height="45"/>
+                </properties>
+              </component>
+              <component id="14cec" class="javax.swing.JButton" binding="sendButton" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <borderPainted value="true"/>
+                  <maximumSize width="62" height="45"/>
+                  <minimumSize width="62" height="45"/>
+                  <opaque value="false"/>
+                  <preferredSize width="62" height="45"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

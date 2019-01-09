@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="EditContact">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="800" height="500"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <maximumSize width="800" height="480"/>
+      <minimumSize width="800" height="480"/>
+      <preferredSize width="800" height="480"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f663e" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="2">
+        <constraints/>
+        <properties>
+          <background color="-1579033"/>
+          <maximumSize width="800" height="20"/>
+          <minimumSize width="800" height="20"/>
+          <preferredSize width="800" height="20"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4b624" class="javax.swing.JButton" binding="hideButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1579033"/>
+              <maximumSize width="20" height="20"/>
+              <minimumSize width="20" height="20"/>
+              <opaque value="false"/>
+              <preferredSize width="20" height="20"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="157dc" class="javax.swing.JButton" binding="closeButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1579033"/>
+              <maximumSize width="20" height="20"/>
+              <minimumSize width="20" height="20"/>
+              <opaque value="false"/>
+              <preferredSize width="20" height="20"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="15ee3" class="javax.swing.JLabel" binding="editLabel">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.5"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <maximumSize width="400" height="120"/>
+          <minimumSize width="400" height="120"/>
+          <preferredSize width="400" height="120"/>
+          <text value="Редактирование контакта"/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <component id="b2ca6" class="javax.swing.JSeparator">
+        <constraints/>
+        <properties>
+          <maximumSize width="0" height="50"/>
+          <minimumSize width="0" height="50"/>
+          <preferredSize width="0" height="50"/>
+        </properties>
+      </component>
+      <component id="5a54c" class="javax.swing.JTextField" binding="name" custom-create="true">
+        <constraints/>
+        <properties>
+          <caretColor color="-1"/>
+          <foreground color="-1"/>
+          <maximumSize width="260" height="40"/>
+          <minimumSize width="260" height="40"/>
+          <opaque value="false"/>
+          <preferredSize width="260" height="40"/>
+        </properties>
+      </component>
+      <component id="a8b82" class="javax.swing.JSeparator">
+        <constraints/>
+        <properties>
+          <maximumSize width="0" height="20"/>
+          <minimumSize width="0" height="20"/>
+          <preferredSize width="0" height="20"/>
+        </properties>
+      </component>
+      <grid id="942f5" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <background color="-16777216"/>
+          <maximumSize width="280" height="30"/>
+          <minimumSize width="280" height="30"/>
+          <preferredSize width="280" height="30"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="71121" class="javax.swing.JLabel" binding="contactNumber">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.5"/>
+              <font size="14"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <maximumSize width="120" height="25"/>
+              <minimumSize width="120" height="25"/>
+              <preferredSize width="120" height="25"/>
+              <text value="+7123456789"/>
+            </properties>
+          </component>
+          <component id="ec2fc" class="javax.swing.JButton" binding="deleteButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.5"/>
+              <background color="-16777216"/>
+              <font size="10"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="4"/>
+              <label value="удалить пользователя  "/>
+              <margin top="0" left="0" bottom="0" right="5"/>
+              <maximumSize width="140" height="25"/>
+              <minimumSize width="140" height="25"/>
+              <opaque value="false"/>
+              <preferredSize width="140" height="25"/>
+              <text value="удалить пользователя  "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="2693c" class="javax.swing.JSeparator">
+        <constraints/>
+        <properties>
+          <maximumSize width="0" height="35"/>
+          <minimumSize width="0" height="35"/>
+          <preferredSize width="0" height="35"/>
+        </properties>
+      </component>
+      <component id="59acd" class="javax.swing.JButton" binding="saveButton" custom-create="true">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.5"/>
+          <background color="-16777216"/>
+          <foreground color="-1"/>
+          <maximumSize width="240" height="40"/>
+          <minimumSize width="240" height="40"/>
+          <opaque value="false"/>
+          <preferredSize width="240" height="40"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="772a1" class="javax.swing.JSeparator">
+        <constraints/>
+        <properties>
+          <maximumSize width="0" height="100"/>
+          <minimumSize width="0" height="100"/>
+          <preferredSize width="0" height="100"/>
+        </properties>
+      </component>
+      <grid id="778b0" layout-manager="FlowLayout" hgap="5" vgap="0" flow-align="0">
+        <constraints/>
+        <properties>
+          <background color="-16777216"/>
+          <maximumSize width="800" height="40"/>
+          <minimumSize width="800" height="40"/>
+          <opaque value="false"/>
+          <preferredSize width="800" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7a593" class="javax.swing.JButton" binding="backButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.5"/>
+              <background color="-16777216"/>
+              <maximumSize width="37" height="37"/>
+              <minimumSize width="37" height="37"/>
+              <opaque value="false"/>
+              <preferredSize width="37" height="37"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SignUp">
+  <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="800" height="500"/>
+    </constraints>
+    <properties>
+      <maximumSize width="800" height="500"/>
+      <minimumSize width="800" height="500"/>
+      <preferredSize width="800" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="4a932" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="2">
+        <constraints/>
+        <properties>
+          <background color="-1579033"/>
+          <maximumSize width="800" height="20"/>
+          <minimumSize width="800" height="20"/>
+          <preferredSize width="800" height="20"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e8de7" class="javax.swing.JButton" binding="hideButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1579033"/>
+              <maximumSize width="20" height="20"/>
+              <minimumSize width="20" height="20"/>
+              <opaque value="false"/>
+              <preferredSize width="20" height="20"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ea2c4" class="javax.swing.JButton" binding="closeButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1579033"/>
+              <maximumSize width="20" height="20"/>
+              <minimumSize width="20" height="20"/>
+              <opaque value="false"/>
+              <preferredSize width="20" height="20"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="22707" class="javax.swing.JLabel" binding="label" custom-create="true">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.5"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <maximumSize width="260" height="200"/>
+          <minimumSize width="260" height="200"/>
+          <preferredSize width="260" height="200"/>
+          <text value="&lt;html&gt;&lt;div style='text-align: center;'&gt;Введите ваши имя и фамилию для завершения регистрации&lt;/div&gt;&lt;/html&gt;"/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <component id="6958e" class="javax.swing.JSeparator">
+        <constraints/>
+        <properties>
+          <maximumSize width="0" height="40"/>
+          <minimumSize width="0" height="40"/>
+          <preferredSize width="0" height="40"/>
+        </properties>
+      </component>
+      <component id="52ed" class="javax.swing.JTextField" binding="firstNameField">
+        <constraints/>
+        <properties>
+          <foreground color="-3092272"/>
+          <maximumSize width="200" height="30"/>
+          <minimumSize width="200" height="30"/>
+          <opaque value="false"/>
+          <preferredSize width="200" height="30"/>
+          <text value="Имя"/>
+        </properties>
+      </component>
+      <component id="8a402" class="javax.swing.JSeparator">
+        <constraints/>
+        <properties>
+          <maximumSize width="0" height="20"/>
+          <minimumSize width="0" height="20"/>
+          <preferredSize width="0" height="20"/>
+        </properties>
+      </component>
+      <component id="8f857" class="javax.swing.JTextField" binding="lastNameField">
+        <constraints/>
+        <properties>
+          <foreground color="-3092272"/>
+          <maximumSize width="200" height="30"/>
+          <minimumSize width="200" height="30"/>
+          <opaque value="false"/>
+          <preferredSize width="200" height="30"/>
+          <text value="Фамилия"/>
+        </properties>
+      </component>
+      <component id="c58e3" class="javax.swing.JSeparator">
+        <constraints/>
+        <properties>
+          <maximumSize width="0" height="40"/>
+          <minimumSize width="0" height="40"/>
+          <preferredSize width="0" height="40"/>
+        </properties>
+      </component>
+      <component id="d442d" class="javax.swing.JButton" binding="completeButton" custom-create="true">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.5"/>
+          <background color="-16731161"/>
+          <font name="Arial" size="22"/>
+          <foreground color="-1"/>
+          <horizontalTextPosition value="0"/>
+          <maximumSize width="240" height="40"/>
+          <minimumSize width="240" height="40"/>
+          <opaque value="false"/>
+          <preferredSize width="240" height="40"/>
+          <text value="ЗАВЕРШИТЬ"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
